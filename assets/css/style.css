@@ -2879,7 +2879,7 @@ a.ui-button:active, .ui-button:active,
     }
 }
 .wpo-site-header .navbar-header .navbar-brand img {
-    max-width: 300px;
+    max-width: 120px;
 }
 @media (max-width: 991px) {
     .wpo-site-header .navbar-collapse.collapse {
@@ -2907,12 +2907,12 @@ a.ui-button:active, .ui-button:active,
 }
 @media (max-width: 440px) {
     .wpo-site-header .navbar-header .navbar-brand img {
-        max-width: 170px;
+        max-width: 100px;
     }
 }
 @media (max-width: 370px) {
     .wpo-site-header .navbar-header .navbar-brand img {
-        max-width: 140px;
+        max-width: 80px;
     }
 }
 @media (max-width: 1700px) {
@@ -5197,8 +5197,11 @@ a.ui-button:active, .ui-button:active,
     }
 }
 @media (max-width: 767px) {
+    .static-hero-s5 .wpo-static-hero-inner .slide-title h2 {
+        font-size: 34px !important;
+    }
     .static-hero-s5 {
-        padding: 70px 0;
+        padding: 30px 0;
         padding-bottom: 0;
     }
 }
@@ -6772,7 +6775,11 @@ a.ui-button:active, .ui-button:active,
 .wpo-site-footer .link-widget ul li a,
 .wpo-site-footer-s2 .link-widget ul li a {
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
+}
+.wpo-site-footer-s2 .link-widget ul li a span {
+    font-size: 16px;
+    display: block;
 }
 .wpo-site-footer .link-widget ul li a:hover,
 .wpo-site-footer-s2 .link-widget ul li a:hover {
@@ -9030,7 +9037,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2,
 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2,
 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 {
-    font-size: 35px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -10807,7 +10814,7 @@ a.ui-button:active, .ui-button:active,
 }
 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content h2,
 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content h2 {
-    font-size: 40px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 400;
     margin-bottom: 20px;
