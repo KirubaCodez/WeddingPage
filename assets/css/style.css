@@ -26288,4 +26288,7 @@ a.ui-button:active, .ui-button:active,
         color: #fff;
     }
 }
+.link-wrap a:hover {
+    text-decoration: none !important;
+}
 /*# sourceMappingURL=style.css.map */
